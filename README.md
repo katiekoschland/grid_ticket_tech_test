@@ -49,8 +49,8 @@ I would also like to be shown the cheapest ticket price for each event on the li
 Clone repository:
 
 ````
-git clone ....
-cd grid-developer-test
+git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
+cd grid_ticket_tech_test
 bundle install
 ````
 
