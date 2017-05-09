@@ -8,6 +8,6 @@ describe Grid do
   end
 
   it 'has 441 cells' do
-    expect(grid.cells.length).to eq 441
+    expect(grid.cells.length).to eq(441)
   end
 end
