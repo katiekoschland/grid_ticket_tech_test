@@ -1,5 +1,5 @@
 # Grid Developer Test
-[![Build Status](https://travis-ci.org/katiekoschland/grid_ticket_tech_test.svg?branch=master)](https://travis-ci.org/katiekoschland/grid_ticket_tech_test)[![Coverage Status](https://coveralls.io/repos/github/katiekoschland/grid_ticket_tech_test/badge.svg)](https://coveralls.io/github/katiekoschland/grid_ticket_tech_test)
+[![Build Status](https://travis-ci.org/katiekoschland/grid_ticket_tech_test.svg?branch=master)](https://travis-ci.org/katiekoschland/grid_ticket_tech_test) [![Coverage Status](https://coveralls.io/repos/github/katiekoschland/grid_ticket_tech_test/badge.svg?branch=master)](https://coveralls.io/github/katiekoschland/grid_ticket_tech_test?branch=master)
 
 You are required to write a program which accepts a user location as a pair of co-ordinates, and returns a list of the five closest events, along with the cheapest ticket price for each event.
 
