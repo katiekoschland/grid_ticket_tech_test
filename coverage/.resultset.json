@@ -32,15 +32,26 @@
         1,
         null,
         1,
-        2,
+        3,
         null,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ],
       "/Users/katiekoschland/Desktop/practice_test_tests/grid_developer_test/lib/event.rb": [
         1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/katiekoschland/Desktop/practice_test_tests/grid_developer_test/spec/grid_spec.rb": [
@@ -81,6 +92,6 @@
         null
       ]
     },
-    "timestamp": 1494334655
+    "timestamp": 1494338878
   }
 }
