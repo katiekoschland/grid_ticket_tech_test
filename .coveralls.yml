@@ -1,1 +1,5 @@
 repo_token: SK88a0LyexgiApc2NJ6iEWbAEiIi5TSgo
+service_name: travis-ci
+
+after_success:
+- CI=true TRAVIS=true coveralls --verbose
