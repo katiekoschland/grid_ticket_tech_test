@@ -1,702 +1,702 @@
 [
 	{
 		"unique_id": 1,
-		"ticket_quantity": 186,
-		"ticket_price": "$133.06",
-		"x_coord": 2,
-		"y_coord": -10
-	},
-	{
-		"unique_id": 2,
-		"ticket_quantity": 22,
-		"ticket_price": "$178.38",
-		"x_coord": -4,
+		"ticket_quantity": 403,
+		"ticket_price": "$74.68",
+		"x_coord": -7,
 		"y_coord": 0
 	},
 	{
+		"unique_id": 2,
+		"ticket_quantity": 1204,
+		"ticket_price": "$307.60",
+		"x_coord": -10,
+		"y_coord": 7
+	},
+	{
 		"unique_id": 3,
-		"ticket_quantity": 154,
-		"ticket_price": "$62.53",
-		"x_coord": 10,
-		"y_coord": -6
-	},
-	{
-		"unique_id": 4,
-		"ticket_quantity": 138,
-		"ticket_price": "$211.90",
-		"x_coord": 8,
-		"y_coord": -9
-	},
-	{
-		"unique_id": 5,
-		"ticket_quantity": 110,
-		"ticket_price": "$20.78",
-		"x_coord": -3,
-		"y_coord": 1
-	},
-	{
-		"unique_id": 6,
-		"ticket_quantity": 23,
-		"ticket_price": "$310.19",
-		"x_coord": 1,
-		"y_coord": 5
-	},
-	{
-		"unique_id": 7,
-		"ticket_quantity": 10,
-		"ticket_price": "$302.77",
+		"ticket_quantity": 299,
+		"ticket_price": "$327.05",
 		"x_coord": 10,
 		"y_coord": -3
 	},
 	{
-		"unique_id": 8,
-		"ticket_quantity": 51,
-		"ticket_price": "$148.66",
-		"x_coord": 3,
-		"y_coord": 0
-	},
-	{
-		"unique_id": 9,
-		"ticket_quantity": 166,
-		"ticket_price": "$34.48",
+		"unique_id": 4,
+		"ticket_quantity": 532,
+		"ticket_price": "$91.46",
 		"x_coord": -4,
-		"y_coord": 8
+		"y_coord": -4
 	},
 	{
-		"unique_id": 10,
-		"ticket_quantity": 119,
-		"ticket_price": "$202.93",
-		"x_coord": 2,
+		"unique_id": 5,
+		"ticket_quantity": 806,
+		"ticket_price": "$43.95",
+		"x_coord": 7,
+		"y_coord": 7
+	},
+	{
+		"unique_id": 6,
+		"ticket_quantity": 1988,
+		"ticket_price": "$336.52",
+		"x_coord": 7,
+		"y_coord": 5
+	},
+	{
+		"unique_id": 7,
+		"ticket_quantity": 1090,
+		"ticket_price": "$59.97",
+		"x_coord": -1,
+		"y_coord": -2
+	},
+	{
+		"unique_id": 8,
+		"ticket_quantity": 831,
+		"ticket_price": "$11.47",
+		"x_coord": -1,
 		"y_coord": 2
 	},
 	{
-		"unique_id": 11,
-		"ticket_quantity": 112,
-		"ticket_price": "$82.32",
-		"x_coord": -1,
-		"y_coord": 6
-	},
-	{
-		"unique_id": 12,
-		"ticket_quantity": 62,
-		"ticket_price": "$294.51",
-		"x_coord": -6,
-		"y_coord": -9
-	},
-	{
-		"unique_id": 13,
-		"ticket_quantity": 80,
-		"ticket_price": "$265.37",
-		"x_coord": -1,
+		"unique_id": 9,
+		"ticket_quantity": 1608,
+		"ticket_price": "$172.52",
+		"x_coord": 3,
 		"y_coord": 4
 	},
 	{
+		"unique_id": 10,
+		"ticket_quantity": 184,
+		"ticket_price": "$105.78",
+		"x_coord": 4,
+		"y_coord": 10
+	},
+	{
+		"unique_id": 11,
+		"ticket_quantity": 1639,
+		"ticket_price": "$105.92",
+		"x_coord": 5,
+		"y_coord": -2
+	},
+	{
+		"unique_id": 12,
+		"ticket_quantity": 1405,
+		"ticket_price": "$108.89",
+		"x_coord": -2,
+		"y_coord": 7
+	},
+	{
+		"unique_id": 13,
+		"ticket_quantity": 1374,
+		"ticket_price": "$7.02",
+		"x_coord": 5,
+		"y_coord": 3
+	},
+	{
 		"unique_id": 14,
-		"ticket_quantity": 133,
-		"ticket_price": "$35.61",
+		"ticket_quantity": 1581,
+		"ticket_price": "$331.76",
 		"x_coord": 8,
 		"y_coord": -10
 	},
 	{
 		"unique_id": 15,
-		"ticket_quantity": 62,
-		"ticket_price": "$4.27",
-		"x_coord": -2,
-		"y_coord": -6
-	},
-	{
-		"unique_id": 16,
-		"ticket_quantity": 35,
-		"ticket_price": "$176.91",
-		"x_coord": -1,
-		"y_coord": -2
-	},
-	{
-		"unique_id": 17,
-		"ticket_quantity": 46,
-		"ticket_price": "$273.53",
-		"x_coord": -9,
-		"y_coord": 2
-	},
-	{
-		"unique_id": 18,
-		"ticket_quantity": 161,
-		"ticket_price": "$346.54",
-		"x_coord": 5,
-		"y_coord": 3
-	},
-	{
-		"unique_id": 19,
-		"ticket_quantity": 179,
-		"ticket_price": "$35.85",
-		"x_coord": 0,
-		"y_coord": 9
-	},
-	{
-		"unique_id": 20,
-		"ticket_quantity": 8,
-		"ticket_price": "$1.39",
-		"x_coord": -1,
-		"y_coord": -3
-	},
-	{
-		"unique_id": 21,
-		"ticket_quantity": 20,
-		"ticket_price": "$295.93",
-		"x_coord": -3,
-		"y_coord": 0
-	},
-	{
-		"unique_id": 22,
-		"ticket_quantity": 176,
-		"ticket_price": "$118.64",
-		"x_coord": 2,
-		"y_coord": 8
-	},
-	{
-		"unique_id": 23,
-		"ticket_quantity": 60,
-		"ticket_price": "$158.13",
-		"x_coord": 3,
-		"y_coord": 5
-	},
-	{
-		"unique_id": 24,
-		"ticket_quantity": 46,
-		"ticket_price": "$284.52",
-		"x_coord": -6,
-		"y_coord": 5
-	},
-	{
-		"unique_id": 25,
-		"ticket_quantity": 57,
-		"ticket_price": "$69.65",
-		"x_coord": 9,
-		"y_coord": -4
-	},
-	{
-		"unique_id": 26,
-		"ticket_quantity": 20,
-		"ticket_price": "$138.11",
-		"x_coord": -6,
-		"y_coord": -10
-	},
-	{
-		"unique_id": 27,
-		"ticket_quantity": 72,
-		"ticket_price": "$347.79",
+		"ticket_quantity": 788,
+		"ticket_price": "$148.37",
 		"x_coord": -4,
 		"y_coord": -1
 	},
 	{
-		"unique_id": 28,
-		"ticket_quantity": 164,
-		"ticket_price": "$135.95",
-		"x_coord": 5,
-		"y_coord": -2
-	},
-	{
-		"unique_id": 29,
-		"ticket_quantity": 115,
-		"ticket_price": "$85.69",
-		"x_coord": -10,
-		"y_coord": -9
-	},
-	{
-		"unique_id": 30,
-		"ticket_quantity": 115,
-		"ticket_price": "$200.28",
+		"unique_id": 16,
+		"ticket_quantity": 877,
+		"ticket_price": "$67.98",
 		"x_coord": 3,
 		"y_coord": -6
 	},
 	{
-		"unique_id": 31,
-		"ticket_quantity": 92,
-		"ticket_price": "$105.05",
-		"x_coord": -6,
-		"y_coord": 9
-	},
-	{
-		"unique_id": 32,
-		"ticket_quantity": 118,
-		"ticket_price": "$276.03",
-		"x_coord": -1,
-		"y_coord": -6
-	},
-	{
-		"unique_id": 33,
-		"ticket_quantity": 74,
-		"ticket_price": "$67.10",
-		"x_coord": 5,
-		"y_coord": -10
-	},
-	{
-		"unique_id": 34,
-		"ticket_quantity": 198,
-		"ticket_price": "$139.86",
-		"x_coord": -10,
-		"y_coord": 7
-	},
-	{
-		"unique_id": 35,
-		"ticket_quantity": 171,
-		"ticket_price": "$335.30",
-		"x_coord": -3,
-		"y_coord": -3
-	},
-	{
-		"unique_id": 36,
-		"ticket_quantity": 129,
-		"ticket_price": "$317.36",
-		"x_coord": 4,
-		"y_coord": 0
-	},
-	{
-		"unique_id": 37,
-		"ticket_quantity": 128,
-		"ticket_price": "$18.50",
-		"x_coord": -7,
-		"y_coord": 3
-	},
-	{
-		"unique_id": 38,
-		"ticket_quantity": 132,
-		"ticket_price": "$56.42",
-		"x_coord": -3,
-		"y_coord": -6
-	},
-	{
-		"unique_id": 39,
-		"ticket_quantity": 56,
-		"ticket_price": "$38.78",
-		"x_coord": -10,
-		"y_coord": -4
-	},
-	{
-		"unique_id": 40,
-		"ticket_quantity": 184,
-		"ticket_price": "$35.71",
-		"x_coord": -1,
-		"y_coord": 1
-	},
-	{
-		"unique_id": 41,
-		"ticket_quantity": 48,
-		"ticket_price": "$103.14",
-		"x_coord": -2,
-		"y_coord": 5
-	},
-	{
-		"unique_id": 42,
-		"ticket_quantity": 109,
-		"ticket_price": "$18.19",
-		"x_coord": -10,
-		"y_coord": 10
-	},
-	{
-		"unique_id": 43,
-		"ticket_quantity": 43,
-		"ticket_price": "$255.64",
-		"x_coord": 8,
-		"y_coord": 1
-	},
-	{
-		"unique_id": 44,
-		"ticket_quantity": 148,
-		"ticket_price": "$237.99",
-		"x_coord": 4,
-		"y_coord": 8
-	},
-	{
-		"unique_id": 45,
-		"ticket_quantity": 10,
-		"ticket_price": "$35.72",
-		"x_coord": -2,
-		"y_coord": 5
-	},
-	{
-		"unique_id": 46,
-		"ticket_quantity": 61,
-		"ticket_price": "$13.17",
-		"x_coord": -4,
+		"unique_id": 17,
+		"ticket_quantity": 168,
+		"ticket_price": "$313.66",
+		"x_coord": 6,
 		"y_coord": 6
 	},
 	{
-		"unique_id": 47,
-		"ticket_quantity": 46,
-		"ticket_price": "$216.87",
+		"unique_id": 18,
+		"ticket_quantity": 1065,
+		"ticket_price": "$274.07",
+		"x_coord": 1,
+		"y_coord": 4
+	},
+	{
+		"unique_id": 19,
+		"ticket_quantity": 120,
+		"ticket_price": "$321.09",
+		"x_coord": -10,
+		"y_coord": -3
+	},
+	{
+		"unique_id": 20,
+		"ticket_quantity": 137,
+		"ticket_price": "$145.09",
 		"x_coord": -9,
-		"y_coord": 0
+		"y_coord": -9
 	},
 	{
-		"unique_id": 48,
-		"ticket_quantity": 152,
-		"ticket_price": "$118.14",
-		"x_coord": 8,
-		"y_coord": 1
-	},
-	{
-		"unique_id": 49,
-		"ticket_quantity": 95,
-		"ticket_price": "$233.08",
-		"x_coord": 1,
-		"y_coord": 7
-	},
-	{
-		"unique_id": 50,
-		"ticket_quantity": 152,
-		"ticket_price": "$327.78",
-		"x_coord": -1,
-		"y_coord": 3
-	},
-	{
-		"unique_id": 51,
-		"ticket_quantity": 41,
-		"ticket_price": "$179.34",
-		"x_coord": 1,
-		"y_coord": 8
-	},
-	{
-		"unique_id": 52,
-		"ticket_quantity": 187,
-		"ticket_price": "$316.80",
+		"unique_id": 21,
+		"ticket_quantity": 49,
+		"ticket_price": "$315.34",
 		"x_coord": -5,
 		"y_coord": -7
 	},
 	{
-		"unique_id": 53,
-		"ticket_quantity": 24,
-		"ticket_price": "$244.70",
-		"x_coord": -9,
+		"unique_id": 22,
+		"ticket_quantity": 825,
+		"ticket_price": "$220.85",
+		"x_coord": -1,
+		"y_coord": -8
+	},
+	{
+		"unique_id": 23,
+		"ticket_quantity": 1461,
+		"ticket_price": "$80.93",
+		"x_coord": -2,
+		"y_coord": -3
+	},
+	{
+		"unique_id": 24,
+		"ticket_quantity": 164,
+		"ticket_price": "$19.13",
+		"x_coord": 9,
+		"y_coord": 6
+	},
+	{
+		"unique_id": 25,
+		"ticket_quantity": 1335,
+		"ticket_price": "$37.47",
+		"x_coord": -3,
+		"y_coord": 6
+	},
+	{
+		"unique_id": 26,
+		"ticket_quantity": 824,
+		"ticket_price": "$189.57",
+		"x_coord": 10,
+		"y_coord": 4
+	},
+	{
+		"unique_id": 27,
+		"ticket_quantity": 1651,
+		"ticket_price": "$27.42",
+		"x_coord": -1,
+		"y_coord": 8
+	},
+	{
+		"unique_id": 28,
+		"ticket_quantity": 1755,
+		"ticket_price": "$305.78",
+		"x_coord": 10,
+		"y_coord": -3
+	},
+	{
+		"unique_id": 29,
+		"ticket_quantity": 317,
+		"ticket_price": "$140.31",
+		"x_coord": -6,
+		"y_coord": -6
+	},
+	{
+		"unique_id": 30,
+		"ticket_quantity": 392,
+		"ticket_price": "$292.24",
+		"x_coord": 7,
+		"y_coord": -1
+	},
+	{
+		"unique_id": 31,
+		"ticket_quantity": 1186,
+		"ticket_price": "$161.69",
+		"x_coord": -5,
+		"y_coord": 4
+	},
+	{
+		"unique_id": 32,
+		"ticket_quantity": 51,
+		"ticket_price": "$5.77",
+		"x_coord": 7,
+		"y_coord": 7
+	},
+	{
+		"unique_id": 33,
+		"ticket_quantity": 1111,
+		"ticket_price": "$346.57",
+		"x_coord": 9,
+		"y_coord": -5
+	},
+	{
+		"unique_id": 34,
+		"ticket_quantity": 1129,
+		"ticket_price": "$124.39",
+		"x_coord": -5,
+		"y_coord": -3
+	},
+	{
+		"unique_id": 35,
+		"ticket_quantity": 1817,
+		"ticket_price": "$144.16",
+		"x_coord": -1,
 		"y_coord": 9
 	},
 	{
-		"unique_id": 54,
-		"ticket_quantity": 134,
-		"ticket_price": "$172.60",
-		"x_coord": 5,
+		"unique_id": 36,
+		"ticket_quantity": 1938,
+		"ticket_price": "$92.55",
+		"x_coord": 0,
 		"y_coord": -4
 	},
 	{
-		"unique_id": 55,
-		"ticket_quantity": 69,
-		"ticket_price": "$155.28",
-		"x_coord": 0,
-		"y_coord": 2
-	},
-	{
-		"unique_id": 56,
-		"ticket_quantity": 13,
-		"ticket_price": "$99.25",
-		"x_coord": -5,
-		"y_coord": 9
-	},
-	{
-		"unique_id": 57,
-		"ticket_quantity": 78,
-		"ticket_price": "$349.53",
+		"unique_id": 37,
+		"ticket_quantity": 1530,
+		"ticket_price": "$310.46",
 		"x_coord": -8,
 		"y_coord": 7
 	},
 	{
-		"unique_id": 58,
-		"ticket_quantity": 102,
-		"ticket_price": "$88.17",
-		"x_coord": -9,
-		"y_coord": -7
-	},
-	{
-		"unique_id": 59,
-		"ticket_quantity": 24,
-		"ticket_price": "$322.85",
+		"unique_id": 38,
+		"ticket_quantity": 1016,
+		"ticket_price": "$144.03",
 		"x_coord": -5,
-		"y_coord": -1
+		"y_coord": -10
 	},
 	{
-		"unique_id": 60,
-		"ticket_quantity": 157,
-		"ticket_price": "$15.33",
-		"x_coord": 3,
+		"unique_id": 39,
+		"ticket_quantity": 1813,
+		"ticket_price": "$277.00",
+		"x_coord": 1,
 		"y_coord": 0
 	},
 	{
-		"unique_id": 61,
-		"ticket_quantity": 102,
-		"ticket_price": "$170.67",
-		"x_coord": 2,
-		"y_coord": 4
-	},
-	{
-		"unique_id": 62,
-		"ticket_quantity": 96,
-		"ticket_price": "$284.33",
-		"x_coord": 5,
-		"y_coord": -3
-	},
-	{
-		"unique_id": 63,
-		"ticket_quantity": 53,
-		"ticket_price": "$151.05",
-		"x_coord": -3,
-		"y_coord": 8
-	},
-	{
-		"unique_id": 64,
-		"ticket_quantity": 44,
-		"ticket_price": "$114.98",
+		"unique_id": 40,
+		"ticket_quantity": 1771,
+		"ticket_price": "$259.19",
 		"x_coord": -4,
-		"y_coord": -3
+		"y_coord": 0
 	},
 	{
-		"unique_id": 65,
-		"ticket_quantity": 188,
-		"ticket_price": "$81.24",
+		"unique_id": 41,
+		"ticket_quantity": 520,
+		"ticket_price": "$164.14",
+		"x_coord": 2,
+		"y_coord": 0
+	},
+	{
+		"unique_id": 42,
+		"ticket_quantity": 1102,
+		"ticket_price": "$341.33",
 		"x_coord": -1,
+		"y_coord": -8
+	},
+	{
+		"unique_id": 43,
+		"ticket_quantity": 1968,
+		"ticket_price": "$162.10",
+		"x_coord": 10,
 		"y_coord": 10
 	},
 	{
-		"unique_id": 66,
-		"ticket_quantity": 134,
-		"ticket_price": "$193.76",
-		"x_coord": 5,
+		"unique_id": 44,
+		"ticket_quantity": 1061,
+		"ticket_price": "$76.25",
+		"x_coord": 10,
+		"y_coord": 0
+	},
+	{
+		"unique_id": 45,
+		"ticket_quantity": 776,
+		"ticket_price": "$152.98",
+		"x_coord": 4,
+		"y_coord": 3
+	},
+	{
+		"unique_id": 46,
+		"ticket_quantity": 1483,
+		"ticket_price": "$111.47",
+		"x_coord": -7,
+		"y_coord": -1
+	},
+	{
+		"unique_id": 47,
+		"ticket_quantity": 673,
+		"ticket_price": "$8.31",
+		"x_coord": 8,
 		"y_coord": 6
 	},
 	{
+		"unique_id": 48,
+		"ticket_quantity": 381,
+		"ticket_price": "$148.56",
+		"x_coord": 7,
+		"y_coord": -7
+	},
+	{
+		"unique_id": 49,
+		"ticket_quantity": 1294,
+		"ticket_price": "$238.99",
+		"x_coord": -10,
+		"y_coord": -10
+	},
+	{
+		"unique_id": 50,
+		"ticket_quantity": 1371,
+		"ticket_price": "$169.47",
+		"x_coord": -1,
+		"y_coord": 1
+	},
+	{
+		"unique_id": 51,
+		"ticket_quantity": 1934,
+		"ticket_price": "$308.05",
+		"x_coord": 3,
+		"y_coord": -2
+	},
+	{
+		"unique_id": 52,
+		"ticket_quantity": 1066,
+		"ticket_price": "$50.20",
+		"x_coord": 6,
+		"y_coord": 1
+	},
+	{
+		"unique_id": 53,
+		"ticket_quantity": 1720,
+		"ticket_price": "$137.29",
+		"x_coord": 3,
+		"y_coord": -6
+	},
+	{
+		"unique_id": 54,
+		"ticket_quantity": 1050,
+		"ticket_price": "$113.87",
+		"x_coord": 0,
+		"y_coord": -10
+	},
+	{
+		"unique_id": 55,
+		"ticket_quantity": 619,
+		"ticket_price": "$250.08",
+		"x_coord": 5,
+		"y_coord": 4
+	},
+	{
+		"unique_id": 56,
+		"ticket_quantity": 1481,
+		"ticket_price": "$5.70",
+		"x_coord": -2,
+		"y_coord": -10
+	},
+	{
+		"unique_id": 57,
+		"ticket_quantity": 776,
+		"ticket_price": "$124.60",
+		"x_coord": 9,
+		"y_coord": -1
+	},
+	{
+		"unique_id": 58,
+		"ticket_quantity": 404,
+		"ticket_price": "$238.34",
+		"x_coord": 1,
+		"y_coord": 10
+	},
+	{
+		"unique_id": 59,
+		"ticket_quantity": 826,
+		"ticket_price": "$305.28",
+		"x_coord": -8,
+		"y_coord": 1
+	},
+	{
+		"unique_id": 60,
+		"ticket_quantity": 129,
+		"ticket_price": "$13.36",
+		"x_coord": -3,
+		"y_coord": -6
+	},
+	{
+		"unique_id": 61,
+		"ticket_quantity": 870,
+		"ticket_price": "$100.35",
+		"x_coord": 8,
+		"y_coord": 6
+	},
+	{
+		"unique_id": 62,
+		"ticket_quantity": 519,
+		"ticket_price": "$161.41",
+		"x_coord": 7,
+		"y_coord": 6
+	},
+	{
+		"unique_id": 63,
+		"ticket_quantity": 1825,
+		"ticket_price": "$2.96",
+		"x_coord": 2,
+		"y_coord": -6
+	},
+	{
+		"unique_id": 64,
+		"ticket_quantity": 1983,
+		"ticket_price": "$336.80",
+		"x_coord": -10,
+		"y_coord": -9
+	},
+	{
+		"unique_id": 65,
+		"ticket_quantity": 797,
+		"ticket_price": "$29.92",
+		"x_coord": 0,
+		"y_coord": -2
+	},
+	{
+		"unique_id": 66,
+		"ticket_quantity": 1623,
+		"ticket_price": "$281.28",
+		"x_coord": 2,
+		"y_coord": -1
+	},
+	{
 		"unique_id": 67,
-		"ticket_quantity": 81,
-		"ticket_price": "$60.48",
-		"x_coord": -9,
+		"ticket_quantity": 1306,
+		"ticket_price": "$196.04",
+		"x_coord": -7,
 		"y_coord": -6
 	},
 	{
 		"unique_id": 68,
-		"ticket_quantity": 142,
-		"ticket_price": "$80.77",
-		"x_coord": 1,
-		"y_coord": -6
+		"ticket_quantity": 28,
+		"ticket_price": "$344.86",
+		"x_coord": 8,
+		"y_coord": 9
 	},
 	{
 		"unique_id": 69,
-		"ticket_quantity": 101,
-		"ticket_price": "$27.79",
-		"x_coord": 1,
-		"y_coord": -5
+		"ticket_quantity": 740,
+		"ticket_price": "$108.13",
+		"x_coord": 7,
+		"y_coord": -8
 	},
 	{
 		"unique_id": 70,
-		"ticket_quantity": 151,
-		"ticket_price": "$101.63",
-		"x_coord": 4,
-		"y_coord": -5
+		"ticket_quantity": 19,
+		"ticket_price": "$107.49",
+		"x_coord": -9,
+		"y_coord": 10
 	},
 	{
 		"unique_id": 71,
-		"ticket_quantity": 58,
-		"ticket_price": "$248.75",
+		"ticket_quantity": 1413,
+		"ticket_price": "$76.14",
+		"x_coord": 5,
+		"y_coord": 10
+	},
+	{
+		"unique_id": 72,
+		"ticket_quantity": 1626,
+		"ticket_price": "$148.14",
+		"x_coord": 8,
+		"y_coord": -7
+	},
+	{
+		"unique_id": 73,
+		"ticket_quantity": 1609,
+		"ticket_price": "$257.74",
 		"x_coord": 5,
 		"y_coord": 4
 	},
 	{
-		"unique_id": 72,
-		"ticket_quantity": 49,
-		"ticket_price": "$89.01",
-		"x_coord": -3,
-		"y_coord": 10
-	},
-	{
-		"unique_id": 73,
-		"ticket_quantity": 145,
-		"ticket_price": "$117.03",
-		"x_coord": -5,
-		"y_coord": 0
-	},
-	{
 		"unique_id": 74,
-		"ticket_quantity": 51,
-		"ticket_price": "$253.76",
-		"x_coord": 6,
-		"y_coord": -3
+		"ticket_quantity": 1534,
+		"ticket_price": "$288.90",
+		"x_coord": -2,
+		"y_coord": -9
 	},
 	{
 		"unique_id": 75,
-		"ticket_quantity": 167,
-		"ticket_price": "$118.87",
-		"x_coord": -4,
+		"ticket_quantity": 1768,
+		"ticket_price": "$205.63",
+		"x_coord": 5,
 		"y_coord": 6
 	},
 	{
 		"unique_id": 76,
-		"ticket_quantity": 168,
-		"ticket_price": "$215.28",
-		"x_coord": -10,
-		"y_coord": 1
+		"ticket_quantity": 1900,
+		"ticket_price": "$199.50",
+		"x_coord": 5,
+		"y_coord": -8
 	},
 	{
 		"unique_id": 77,
-		"ticket_quantity": 168,
-		"ticket_price": "$333.11",
-		"x_coord": -3,
-		"y_coord": -3
+		"ticket_quantity": 137,
+		"ticket_price": "$20.90",
+		"x_coord": 8,
+		"y_coord": 10
 	},
 	{
 		"unique_id": 78,
-		"ticket_quantity": 147,
-		"ticket_price": "$330.35",
-		"x_coord": -1,
-		"y_coord": -4
+		"ticket_quantity": 516,
+		"ticket_price": "$235.87",
+		"x_coord": 10,
+		"y_coord": 6
 	},
 	{
 		"unique_id": 79,
-		"ticket_quantity": 196,
-		"ticket_price": "$22.33",
-		"x_coord": -6,
-		"y_coord": 1
+		"ticket_quantity": 1022,
+		"ticket_price": "$92.69",
+		"x_coord": -9,
+		"y_coord": 10
 	},
 	{
 		"unique_id": 80,
-		"ticket_quantity": 161,
-		"ticket_price": "$74.03",
-		"x_coord": 10,
-		"y_coord": 8
+		"ticket_quantity": 457,
+		"ticket_price": "$145.32",
+		"x_coord": 5,
+		"y_coord": -5
 	},
 	{
 		"unique_id": 81,
-		"ticket_quantity": 81,
-		"ticket_price": "$106.33",
-		"x_coord": -3,
-		"y_coord": 1
+		"ticket_quantity": 832,
+		"ticket_price": "$66.99",
+		"x_coord": -7,
+		"y_coord": 0
 	},
 	{
 		"unique_id": 82,
-		"ticket_quantity": 69,
-		"ticket_price": "$341.21",
-		"x_coord": 2,
-		"y_coord": -2
+		"ticket_quantity": 1391,
+		"ticket_price": "$227.96",
+		"x_coord": -4,
+		"y_coord": 4
 	},
 	{
 		"unique_id": 83,
-		"ticket_quantity": 24,
-		"ticket_price": "$124.43",
-		"x_coord": -1,
-		"y_coord": -10
+		"ticket_quantity": 788,
+		"ticket_price": "$251.10",
+		"x_coord": -3,
+		"y_coord": -6
 	},
 	{
 		"unique_id": 84,
-		"ticket_quantity": 127,
-		"ticket_price": "$298.22",
-		"x_coord": 3,
+		"ticket_quantity": 1648,
+		"ticket_price": "$229.95",
+		"x_coord": 5,
 		"y_coord": 0
 	},
 	{
 		"unique_id": 85,
-		"ticket_quantity": 47,
-		"ticket_price": "$261.61",
-		"x_coord": 10,
-		"y_coord": -1
-	},
-	{
-		"unique_id": 86,
-		"ticket_quantity": 192,
-		"ticket_price": "$221.69",
-		"x_coord": -9,
-		"y_coord": 2
-	},
-	{
-		"unique_id": 87,
-		"ticket_quantity": 20,
-		"ticket_price": "$326.95",
-		"x_coord": -3,
-		"y_coord": 1
-	},
-	{
-		"unique_id": 88,
-		"ticket_quantity": 47,
-		"ticket_price": "$84.48",
-		"x_coord": 10,
-		"y_coord": -9
-	},
-	{
-		"unique_id": 89,
-		"ticket_quantity": 181,
-		"ticket_price": "$93.99",
-		"x_coord": -5,
-		"y_coord": -3
-	},
-	{
-		"unique_id": 90,
-		"ticket_quantity": 89,
-		"ticket_price": "$186.99",
-		"x_coord": 1,
+		"ticket_quantity": 37,
+		"ticket_price": "$253.60",
+		"x_coord": 5,
 		"y_coord": -4
 	},
 	{
-		"unique_id": 91,
-		"ticket_quantity": 18,
-		"ticket_price": "$79.30",
-		"x_coord": -8,
-		"y_coord": -1
+		"unique_id": 86,
+		"ticket_quantity": 1470,
+		"ticket_price": "$130.46",
+		"x_coord": -1,
+		"y_coord": -2
 	},
 	{
-		"unique_id": 92,
-		"ticket_quantity": 166,
-		"ticket_price": "$93.69",
-		"x_coord": 10,
-		"y_coord": -8
+		"unique_id": 87,
+		"ticket_quantity": 324,
+		"ticket_price": "$299.14",
+		"x_coord": 2,
+		"y_coord": 3
 	},
 	{
-		"unique_id": 93,
-		"ticket_quantity": 83,
-		"ticket_price": "$53.91",
-		"x_coord": 5,
+		"unique_id": 88,
+		"ticket_quantity": 288,
+		"ticket_price": "$50.18",
+		"x_coord": -5,
+		"y_coord": -10
+	},
+	{
+		"unique_id": 89,
+		"ticket_quantity": 10,
+		"ticket_price": "$258.19",
+		"x_coord": -10,
 		"y_coord": 4
 	},
 	{
-		"unique_id": 94,
-		"ticket_quantity": 12,
-		"ticket_price": "$125.88",
-		"x_coord": -8,
-		"y_coord": 2
-	},
-	{
-		"unique_id": 95,
-		"ticket_quantity": 199,
-		"ticket_price": "$244.30",
-		"x_coord": -7,
-		"y_coord": 9
-	},
-	{
-		"unique_id": 96,
-		"ticket_quantity": 38,
-		"ticket_price": "$343.59",
-		"x_coord": 0,
-		"y_coord": 6
-	},
-	{
-		"unique_id": 97,
-		"ticket_quantity": 161,
-		"ticket_price": "$45.95",
-		"x_coord": 0,
+		"unique_id": 90,
+		"ticket_quantity": 504,
+		"ticket_price": "$31.36",
+		"x_coord": -4,
 		"y_coord": 7
 	},
 	{
-		"unique_id": 98,
-		"ticket_quantity": 70,
-		"ticket_price": "$36.16",
-		"x_coord": 9,
-		"y_coord": -8
+		"unique_id": 91,
+		"ticket_quantity": 144,
+		"ticket_price": "$252.08",
+		"x_coord": -4,
+		"y_coord": -7
 	},
 	{
-		"unique_id": 99,
-		"ticket_quantity": 196,
-		"ticket_price": "$192.63",
-		"x_coord": 10,
+		"unique_id": 92,
+		"ticket_quantity": 1355,
+		"ticket_price": "$261.30",
+		"x_coord": 6,
+		"y_coord": -4
+	},
+	{
+		"unique_id": 93,
+		"ticket_quantity": 1518,
+		"ticket_price": "$246.24",
+		"x_coord": -8,
+		"y_coord": -4
+	},
+	{
+		"unique_id": 94,
+		"ticket_quantity": 791,
+		"ticket_price": "$83.46",
+		"x_coord": -5,
+		"y_coord": 1
+	},
+	{
+		"unique_id": 95,
+		"ticket_quantity": 751,
+		"ticket_price": "$248.73",
+		"x_coord": 8,
+		"y_coord": 0
+	},
+	{
+		"unique_id": 96,
+		"ticket_quantity": 800,
+		"ticket_price": "$248.15",
+		"x_coord": -10,
 		"y_coord": -1
 	},
 	{
-		"unique_id": 100,
-		"ticket_quantity": 9,
-		"ticket_price": "$50.58",
-		"x_coord": 2,
+		"unique_id": 97,
+		"ticket_quantity": 1993,
+		"ticket_price": "$57.51",
+		"x_coord": 3,
 		"y_coord": -8
+	},
+	{
+		"unique_id": 98,
+		"ticket_quantity": 510,
+		"ticket_price": "$262.76",
+		"x_coord": 2,
+		"y_coord": -7
+	},
+	{
+		"unique_id": 99,
+		"ticket_quantity": 1059,
+		"ticket_price": "$346.00",
+		"x_coord": 10,
+		"y_coord": 1
+	},
+	{
+		"unique_id": 100,
+		"ticket_quantity": 648,
+		"ticket_price": "$223.88",
+		"x_coord": 8,
+		"y_coord": -1
 	}
 ]

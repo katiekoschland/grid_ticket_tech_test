@@ -1,4 +1,4 @@
-class Cell
+class Coordinate
 
   attr_reader :coordinates, :event
 

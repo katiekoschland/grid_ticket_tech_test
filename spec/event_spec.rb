@@ -19,15 +19,15 @@ describe Event do
     end
 
     it 'has the correct ticket quantity' do
-      expect(event.ticket_quantity).to eq(22)
+      expect(event.ticket_quantity).to eq(1204)
     end
 
     it 'has the correct ticket price' do
-      expect(event.ticket_price).to eq("$178.38")
+      expect(event.ticket_price).to eq("$307.60")
     end
 
     it 'has the correct co-ordinates' do
-      expect(event.coordinates).to eq([-4, 0])
+      expect(event.coordinates).to eq([-10, 7])
     end
   end
 end

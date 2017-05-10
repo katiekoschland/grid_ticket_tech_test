@@ -12,7 +12,7 @@ class Grid
   def generate_grid
     (-10..10).each do |x|
       (-10..10).each do |y|
-        @cells["#{x},#{y}"] = Cell.new(x,y)
+        @cells["#{x},#{y}"] = Coordinate.new(x,y)
       end
     end
   end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/spec/cell_spec.rb": [
+      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/spec/coordinate_spec.rb": [
         1,
         null,
         1,
@@ -21,7 +21,7 @@
         null,
         null
       ],
-      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/lib/cell.rb": [
+      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/lib/coordinate.rb": [
         1,
         null,
         1,
@@ -135,6 +135,6 @@
         null
       ]
     },
-    "timestamp": 1494438454
+    "timestamp": 1494442620
   }
 }
