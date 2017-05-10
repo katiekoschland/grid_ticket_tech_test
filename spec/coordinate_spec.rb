@@ -15,4 +15,15 @@ describe Coordinate do
     expect(coordinate.event).to be nil
   end
 
+  it 'responds to load_events' do
+    expect(coordinate).to respond_to(:load_events)
+  end
+end
+
+describe 'load_events' do
+  subject(:coordinate) { Coordinate.new(-7, 0)}
+
+  it 'can store coordinates' do
+
+  end
 end
