@@ -1,14 +1,33 @@
 require 'event'
 
 describe Event do
-  subject(:event) { Event.new }
+  subject(:event) { Event.new(2) }
 
-  it 'can be instantiated' do
-    expect(event).to be_instance_of(Event)
+  describe '#initialize' do
+    it 'can be instantiated' do
+      expect(event).to be_instance_of(Event)
+    end
+
+    it 'responds to load_data' do
+      expect(event).to respond_to(:load_data)
+    end
   end
 
-  it 'responds to unique_id, ticket quantity, price($), x_coord, y_coord' do
-    expect(event).to respond_to(:unique_id, :ticket_quantity, :ticket_price, :x_coord, :y_coord)
-  end
+  describe '#each_event' do
+    it 'corresponds to the correct id' do
+      expect(event.unique_id).to eq(2)
+    end
 
+    it 'has the correct ticket quantity' do
+      expect(event.ticket_quantity).to eq(22)
+    end
+
+    it 'has the correct ticket price' do
+      expect(event.ticket_price).to eq("$178.38")
+    end
+
+    it 'has the correct co-ordinates' do
+      expect(event.coordinates).to eq([-4, 0])
+    end
+  end
 end

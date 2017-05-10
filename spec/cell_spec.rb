@@ -11,4 +11,8 @@ describe Cell do
     expect(cell.coordinates).to eq([3, 8])
   end
 
+  it 'has no events upon instantiation' do
+    expect(cell.event).to be nil
+  end
+
 end
