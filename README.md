@@ -3,7 +3,7 @@
 
 You are required to write a program which accepts a user location as a pair of co-ordinates, and returns a list of the five closest events, along with the cheapest ticket price for each event.
 
-[Requirements](##requirements) | [Scenario](##scenario) | [User Stories](##user-stories) | [Questions](##questions) | [Installation Instructions](##installation-instructions) | [Technologies Used](##technologies-used)
+[Requirements](#requirements) | [Scenario](#scenario) | [User Stories](#user-stories) | [Questions](#questions) | [Installation Instructions](#installation-instructions) | [Technologies Used](#technologies-used)
 
 ## Requirements
 
