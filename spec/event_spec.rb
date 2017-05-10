@@ -7,8 +7,8 @@ describe Event do
     expect(event).to be_instance_of(Event)
   end
 
-  it 'responds to unique_id, ticket quantity and price($)' do
-    expect(event).to respond_to(:unique_id, :ticket_quantity, :price_in_dollars)
+  it 'responds to unique_id, ticket quantity, price($), x_coord, y_coord' do
+    expect(event).to respond_to(:unique_id, :ticket_quantity, :ticket_price, :x_coord, :y_coord)
   end
 
 end

@@ -38,6 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   coveralls
+  json
   rspec
 
 RUBY VERSION
