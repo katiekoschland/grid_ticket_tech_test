@@ -40,9 +40,23 @@ I would also like to be shown the cheapest ticket price for each event on the li
 # Questions to be answered
 
 ````
-1) How might you change your program if you needed to support multiple events at the same location?
+1) How did you randomly generate seed data?
 
-2) How would you change your program if you were working with a much larger world size?
+  In order to randomly generate seed data, I decided to use generatedata. This allowed me to generate 100 lines of data into a JSON file and also customize the data type for each column.
+
+````
+| Column Title      | Data Type     |
+| ----------------- | ------------- |
+| unique_id | personal number of 12 digits |
+| ticket_quantity | number range from 1 - 200 |
+| ticket_price($) |currency with a range from $1- 350 |
+|  x_coord | number range from -10 to + 10 |
+|  y_coord | number range from -10 to + 10
+
+````
+2) How might you change your program if you needed to support multiple events at the same location?
+
+3) How would you change your program if you were working with a much larger world size?
 ````
 
 # Installation instructions
