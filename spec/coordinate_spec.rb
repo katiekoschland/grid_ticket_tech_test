@@ -20,10 +20,10 @@ describe Coordinate do
   end
 end
 
-describe 'load_events' do
+describe '#load_events' do
   subject(:coordinate) { Coordinate.new(-7, 0)}
 
   it 'can store coordinates' do
-
+    expect(coordinate.event).to eq(81)
   end
 end
