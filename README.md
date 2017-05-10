@@ -3,7 +3,9 @@
 
 You are required to write a program which accepts a user location as a pair of co-ordinates, and returns a list of the five closest events, along with the cheapest ticket price for each event.
 
-# Requirements
+[Requirements](##requirements) | [Scenario](##scenario) | [User Stories](##user-stories) | [Questions](##questions) | [Installation Instructions](##installation-instructions) | [Technologies Used](##technologies-used)
+
+## Requirements
 
 ````
 * Code in any language you like but please provide clear instructions on how we should build and run your code. Decision: Ruby, Testing with Rspec
@@ -12,7 +14,7 @@ You are required to write a program which accepts a user location as a pair of c
 * Secondary requirements are whether your code is idiomatic for the language being coded in, easy to read, and clearly laid out.
 
 ````
-# Scenario
+## Scenario
 
 ````
 * Your program should randomly generate seed data
@@ -25,7 +27,7 @@ You are required to write a program which accepts a user location as a pair of c
 * Location of user given as co-ordinates
 ````
 
-# User stories
+## User stories
 
 ````
 As a user
@@ -37,7 +39,7 @@ So that I don't get ripped off buying tickets
 I would also like to be shown the cheapest ticket price for each event on the list
 ````
 
-# Questions to be answered
+## Questions
 
 ````
 1) How did you randomly generate seed data?
@@ -59,7 +61,7 @@ I would also like to be shown the cheapest ticket price for each event on the li
 3) How would you change your program if you were working with a much larger world size?
 ````
 
-# Installation instructions
+## Installation instructions
 
 Clone repository:
 
@@ -75,7 +77,7 @@ To run tests:
 rspec
 ````
 
-# Technologies used
+## Technologies used
 
 ````
 * Ruby
