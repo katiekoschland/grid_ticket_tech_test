@@ -1,6 +1,19 @@
-class App
-  def welcome_viagogo
+require_relative 'grid'
+require_relative 'event'
+require_relative 'coordinate'
+require_relative 'user'
 
+class App
+
+  def spacer
+    puts "".center(20,'-')
+  end
+
+  def prompt
+    print ">"
+  end
+
+  def welcome_viagogo
    puts """\n Welcome to our online event locator with
                             _________
 
@@ -22,5 +35,11 @@ class App
 
    """
  end
+
+ def coordinate_input
+    spacer
+    puts "\nPlease input coordinates in the following format (x, y):"
+    user_coord = gets.chomp
+  end
 
 end

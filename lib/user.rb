@@ -4,7 +4,7 @@ class User
 
   attr_reader :user_w_coord, :user_z_coord, :events, :five_closest_events
 
-  def initialize(w,z)
+  def initialize(w, z)
     @user_w_coord = w
     @user_z_coord = z
     @events = []
@@ -26,5 +26,5 @@ class User
   def five_closest_events
     @five_closest_events = @events.map(&:last).min(5)
   end
-  
+
 end
