@@ -23,8 +23,8 @@ class User
     end
   end
 
-  # def five_closest_events
-  #   @five_closest_events = @manhattan_distance.min(5)
-  # end
-
+  def five_closest_events
+    @five_closest_events = @events.map(&:last).min(5)
+  end
+  
 end

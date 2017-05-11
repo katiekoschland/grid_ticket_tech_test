@@ -17,7 +17,8 @@ describe User do
   it 'can return 100 manhattan_distances' do
     expect(user.manhattan_distance.length).to eq(100)
   end
-#   it 'can return the five closest_events' do
-#     expect(user.five_closest_events.length).to eq 5
-# end
+
+  it 'can return the five closest_events' do
+    expect(user.five_closest_events.length).to eq 5
+  end
 end
