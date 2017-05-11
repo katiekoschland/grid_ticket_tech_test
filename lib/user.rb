@@ -2,7 +2,7 @@ require 'json'
 
 class User
 
-  attr_reader :user_w_coord, :user_z_coord, :x_coord_events, :y_coord_events, :event_ids, :event_location, :manhattan_distance
+  attr_reader :user_w_coord, :user_z_coord, :x_coord_events, :y_coord_events, :event_ids, :event_location, :manhattan_distance, :five_closest_events
 
   def initialize(w,z)
     @user_w_coord = w
@@ -13,6 +13,8 @@ class User
     event_location
     @manhattan_distance = []
     manhattan_distance
+    @five_closest_events = []
+    five_closest_events
   end
 
   def event_location
@@ -25,7 +27,11 @@ class User
     end
   end
 
-private
+  def five_closest_events
+    @five_closest_events = @manhattan_distance.min(5)
+  end
+
+  private
   def manhattan_distance
     (0..@x_coord_events.length-1).each do |i|
       (0..@y_coord_events.length-1).each do |j|

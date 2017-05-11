@@ -18,4 +18,7 @@ describe User do
     expect(user.event_location.length).to eq(100)
   end
 
+  it 'can return the five closest_events' do
+    expect(user.five_closest_events.count).to eq 5
+end
 end
