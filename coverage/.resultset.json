@@ -162,8 +162,23 @@
         null,
         null,
         null
+      ],
+      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/spec/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/katiekoschland/Desktop/practice_test_tests/grid_ticket_tech_test/lib/user.rb": [
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1494489992
+    "timestamp": 1494490223
   }
 }
