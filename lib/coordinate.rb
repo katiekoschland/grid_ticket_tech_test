@@ -3,10 +3,10 @@ require_relative 'event'
 
 class Coordinate
 
-  attr_reader :coordinates, :event, :x_coord, :y_coord
+  attr_reader :x_y, :event, :x_coord, :y_coord
 
   def initialize(x, y)
-    @coordinates = x, y
+    @x_y = x, y
     @x_coord = x
     @y_coord = y
     @event = nil

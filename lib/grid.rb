@@ -1,18 +1,20 @@
 class Grid
 
-  attr_reader :cells
+  MAX_VALUE = 10
+  MIN_VALUE = -10
+  attr_reader :coordinates
 
   def initialize
-    @cells = {}
+    @coordinates= {}
     generate_grid
   end
 
   private
 
   def generate_grid
-    (-10..10).each do |x|
-      (-10..10).each do |y|
-        @cells["#{x},#{y}"] = Coordinate.new(x,y)
+    (MIN_VALUE..MAX_VALUE).each do |x|
+      (MIN_VALUE..MAX_VALUE).each do |y|
+        @coordinates["#{x},#{y}"] = Coordinate.new(x,y)
       end
     end
   end

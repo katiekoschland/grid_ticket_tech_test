@@ -8,7 +8,7 @@ describe Coordinate do
   end
 
   it 'each cell has an x and y co-ordinate' do
-    expect(coordinate.coordinates).to eq([3, 8])
+    expect(coordinate.x_y).to eq([3, 8])
   end
 
   it 'has no events upon instantiation' do
