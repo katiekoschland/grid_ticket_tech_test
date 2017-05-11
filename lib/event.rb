@@ -16,7 +16,7 @@ class Event
     file = File.read('event_data.json')
     events = JSON.parse(file)
     events.each do |event|
-      if event["unique_id"] == @unique_id
+      if event["unique_id"] == @unique_id && @coordinates == nil
         @ticket_quantity = event["ticket_quantity"]
         @ticket_price = event["ticket_price"]
         @coordinates = event["x_coord"], event["y_coord"]
