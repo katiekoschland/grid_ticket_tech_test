@@ -36,10 +36,11 @@ class App
    """
  end
 
- def coordinate_input
-    spacer
-    puts "\nPlease input coordinates in the following format (x, y):"
-    user_coord = gets.chomp
-  end
+ def closest_events
+   spacer
+   puts "\nPlease input coordinates in the following format x, y:"
+   user_coord = gets.chomp
+   puts "\nClosest events to #{user_coord}"
+ end
 
 end
