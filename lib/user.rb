@@ -2,15 +2,17 @@ require 'json'
 
 class User
 
-  attr_reader :user_w_coord, :user_z_coord, :events, :five_closest_events
+  attr_reader :user_w_coord, :user_z_coord, :events, :events_ordered_by_dist, :five_closest_events
 
   def initialize(w, z)
     @user_w_coord = w
     @user_z_coord = z
     @events = []
     manhattan_distance
+    @events_ordered_by_dist = []
     @five_closest_events = []
     five_closest_events
+
   end
 
   def manhattan_distance
@@ -24,7 +26,8 @@ class User
   end
 
   def five_closest_events
-    @five_closest_events = @events.map(&:last).min(5)
+    @events_ordered_by_dist += @events.sort_by { |e| e[2] }
+    @five_closest_events = @events_ordered_by_dist.take(5)
   end
 
 end
