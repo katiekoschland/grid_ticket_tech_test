@@ -1,24 +1,50 @@
 require 'user'
 
 describe User do
-  subject(:user){ User.new(5,4) }
-  it 'can be instantiated' do
+  subject(:user){ User.new }
+
+   describe '#instantiation' do
+
+  it 'can create instances of User' do
     expect(user).to be_instance_of(User)
   end
 
-  it 'has the correct w coordinate' do
-    expect(user.user_w_coord).to eq(5)
+  it 'events' do
+    expect(user.events).to eq([])
   end
 
-  it 'has the correct z coordinate' do
-    expect(user.user_z_coord).to eq(4)
+  it 'events_ordered_by_dist' do
+    expect(user.events_ordered_by_dist).to eq([])
   end
 
-  it 'can return 100 manhattan_distances' do
-    expect(user.manhattan_distance.length).to eq(100)
+  it 'five_closest_events' do
+    expect(user.five_closest_events).to eq([])
+  end
+end
+
+  it '#closest events' do
+    expect(user).to respond_to(:closest_events)
   end
 
-  it 'can return the five closest_events' do
-    expect(user.five_closest_events.length).to eq 5
+  describe '#five_closest_events' do
+    before(:each) do
+      user_w_coord = 4
+      user_z_coord = 6
+    end
+
+    it '#manhattan_distance' do
+      expect(user.manhattan_distance.length).to eq(100)
+    end
+
+    it '#events_ordered_by_dist' do
+      user.manhattan_distance
+      user.five_closest_events
+      expect(user.events_ordered_by_dist.length).to eq(100)
+    end
+
+    it '#five_closest_events' do
+      user.manhattan_distance
+      expect(user.five_closest_events.length).to eq(5)
+    end
   end
 end
