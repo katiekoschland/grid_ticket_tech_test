@@ -5,7 +5,7 @@ describe Event do
 
   describe '#initialize' do
     it 'can be instantiated' do
-      expect(event).to be_instance_of(Event)
+      expect(event).to be_instance_of Event
     end
 
     it 'responds to load_data' do
@@ -14,7 +14,7 @@ describe Event do
   end
 
   describe '#each_event' do
-    it 'corresponds to the correct id' do
+    it 'has the correct unique_id' do
       expect(event.unique_id).to eq(2)
     end
 
