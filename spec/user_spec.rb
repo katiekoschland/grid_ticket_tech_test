@@ -50,11 +50,6 @@ describe User do
   end
 
   describe 'closest_events' do
-    it 'to respond to welcome_viagogo, manhattan_distance, five_closest_events' do
-      expect(user).to respond_to(:welcome_viagogo)
-      expect(user).to respond_to(:manhattan_distance)
-      expect(user).to respond_to(:five_closest_events)
-    end
 
     it 'accepts coordinates as user input and returns five closest event' do
       allow(user).to receive(:gets).and_return("4 , 5")
