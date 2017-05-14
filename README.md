@@ -6,8 +6,7 @@ You are required to write a program which accepts a user location as a pair of c
 
 [Scenario](#scenario) | [Questions](#questions) | [Installation Instructions](#installation-instructions) | [Technologies Used](#technologies-used)
 
-## Scenario
-
+## Requirements
 ````
 * Your program should randomly generate seed data
 * Your program should operate in a world that ranges from -10 to +10 (Y axis), and -10 to +10 (X axis)
@@ -18,6 +17,45 @@ You are required to write a program which accepts a user location as a pair of c
 * The distance between two points should be computed as the Manhattan distance
 * Location of user given as co-ordinates
 ````
+
+## Installation instructions
+
+Clone repository:
+
+````
+>git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
+>cd grid_ticket_tech_test
+>bundle install
+````
+To run the program:
+
+````
+>irb
+>require './lib/user.rb'
+>user = User.new
+>user.closest_events
+````
+Example:
+
+````
+<p align="center">
+<img src="/images/screenshot.png"/>
+</p>
+````
+To run tests:
+
+````
+> rspec (23 passing)
+
+````
+
+## Technologies used
+
+````
+* Ruby
+* Tested with Rspec
+````
+
 
 ## Questions
 
@@ -42,29 +80,4 @@ You are required to write a program which accepts a user location as a pair of c
 3) How would you change your program if you were working with a much larger world size?
 
 4) Any other future improvements?
-````
-
-## Installation instructions
-
-Clone repository:
-
-````
-git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
-cd grid_ticket_tech_test
-bundle install
-````
-
-To run tests:
-
-````
-rspec
-````
-
-## Technologies used
-
-````
-* Ruby
-* irb
-* Tested with Rspec
-* twilio
 ````

@@ -57,7 +57,7 @@ describe User do
     end
 
     it 'accepts coordinates as user input and returns five closest event' do
-      user_w_coord = 4, 5
+      allow(user).to receive(:gets).and_return("4 , 5")
       user.welcome_viagogo
       user.manhattan_distance
       user.five_closest_events
