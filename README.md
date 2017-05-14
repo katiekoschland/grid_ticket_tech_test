@@ -38,6 +38,7 @@ You are required to write a program which accepts a user location as a pair of c
 ````
 2) How might you change your program if you needed to support multiple events at the same location?
 
+
 3) How would you change your program if you were working with a much larger world size?
 
 4) Any other future improvements?

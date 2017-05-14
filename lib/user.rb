@@ -12,15 +12,20 @@ class User
 
   def closest_events
      welcome_viagogo
-     puts "\nPlease input coordinates in the following format x:"
+     puts "Please input your x coordinate:"
      user_w_coord = gets.chomp
-     puts "\nPlease input coordinates in the following format y:"
+     puts "\nPlease input your y coordinate:"
      user_z_coord = gets.chomp
      manhattan_distance
      five_closest_events
      puts "\nClosest events to: #{user_w_coord}, #{user_z_coord}"
-     puts "\n #{@five_closest_events}"
-   end
+     puts "\n Event #{@five_closest_events[0][0]} -#{@five_closest_events[0][1]}, Distance: #{@five_closest_events[0][2]}"
+     puts "\n Event #{@five_closest_events[1][0]} -#{@five_closest_events[1][1]}, Distance: #{@five_closest_events[1][2]}"
+     puts "\n Event #{@five_closest_events[2][0]} -#{@five_closest_events[2][1]}, Distance: #{@five_closest_events[2][2]}"
+     puts "\n Event #{@five_closest_events[3][0]} -#{@five_closest_events[3][1]}, Distance: #{@five_closest_events[3][2]}"
+     puts "\n Event #{@five_closest_events[4][0]} -#{@five_closest_events[4][1]}, Distance: #{@five_closest_events[4][2]}"
+     "Book now to avoid disappointment"
+  end
 
   def manhattan_distance
     file = File.read('event_data.json')
@@ -28,16 +33,14 @@ class User
     events.each do |event|
       x_abs_dist =  (event["x_coord"] -  user_w_coord.to_i).abs
       y_abs_dist =  (event["y_coord"] -  user_z_coord.to_i).abs
-      @events << [ event["unique_id"], event["ticket_price"], x_abs_dist + y_abs_dist]
+      @events <<  [event["unique_id"], event["ticket_price"], x_abs_dist + y_abs_dist]
     end
   end
 
   def five_closest_events
     @events_ordered_by_dist += @events.sort_by { |e| e[2] }
-    @five_closest_events = @events_ordered_by_dist.take(5)
+    @five_closest_events += @events_ordered_by_dist.take(5)
   end
-
-  private
 
   def welcome_viagogo
    puts """\n Welcome to our online event locator with
