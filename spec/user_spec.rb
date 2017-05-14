@@ -51,13 +51,10 @@ describe User do
 
   describe 'Finding Closest Events' do
 
-    before(:each) do
-      user_w_coord = 4
-      user_z_coord = 5
-    end
-
     it 'Accepts coordinates as user input and returns five closest events' do
       user.welcome_viagogo
+      user_w_coord = 4
+      user_z_coord = 5
       user.manhattan_distance
       user.five_closest_events
       body = "Closest events to: 4, 5 \nEvent 39 -$277.00, Distance: 1\Event 41 -$164.14, Distance: 2\Event 50 -$169.47, Distance: 2\nEvent 65 -$29.92, Distance: 2\nEvent 66 -$281.28, Distance: 3"
