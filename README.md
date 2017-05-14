@@ -101,10 +101,16 @@ rspec (22 passing)
 |  y_coord | number range from -10 to + 10
 
 ````
-2) How might you change your program if you needed to support multiple events at the same location?
+2) How would you change your program if you were working with a much larger world size?
 
+    * During this project I was thinking about the real world application of the underlying principles in my code. I considered the world as a sample size. If a user inputed their postcode a method of similar logic would read the postcode and define the users location as Longitude and latitude. The measurement of distance would need to be more accurate and be useful to the user i.e in miles or with estimated travel time.
 
-3) How would you change your program if you were working with a much larger world size?
+    The format of the data would also need to be adapted to handle a much larger population. I would consider changing the JSON file to be put into a database.
+
+3) How might you change your program if you needed to support multiple events at the same location?
+
+    * In order to support multiple events at the same location, I would remove the constraint on my load_events method that only allows one event to be stored and filter the results by user preference.
 
 4) Any other future improvements?
+   *I would like to implement twilio-ruby gem to this program, which will allow a user to also receive the closest events as a text message.
 ````
