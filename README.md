@@ -2,12 +2,13 @@
 
 [![Build Status](https://travis-ci.org/katiekoschland/grid_ticket_tech_test.svg?branch=master)](https://travis-ci.org/katiekoschland/grid_ticket_tech_test) [![Coverage Status](https://coveralls.io/repos/github/katiekoschland/grid_ticket_tech_test/badge.svg?branch=master)](https://coveralls.io/github/katiekoschland/grid_ticket_tech_test?branch=master)
 
+
 You are required to write a program which accepts a user location as a pair of co-ordinates, and returns a list of the five closest events, along with the cheapest ticket price for each event.
 
-[Scenario](#scenario) | [Questions](#questions) | [Installation Instructions](#installation-instructions) | [Technologies Used](#technologies-used)
+[Requirements](#requirements) | [installation instructions](#installation-instructions) | [technologies used](#technologies-used) | [Questions](#questions)
 
 ## Requirements
-````
+
 * Your program should randomly generate seed data
 * Your program should operate in a world that ranges from -10 to +10 (Y axis), and -10 to +10 (X axis)
 * Your program should assume that each co-ordinate can hold a maximum of one event
@@ -16,36 +17,36 @@ You are required to write a program which accepts a user location as a pair of c
 * Each ticket has a non-zero price, expressed in US Dollars
 * The distance between two points should be computed as the Manhattan distance
 * Location of user given as co-ordinates
-````
+
 
 ## Installation instructions
 
 Clone repository:
 
 ````
->git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
->cd grid_ticket_tech_test
->bundle install
+git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
+cd grid_ticket_tech_test
+bundle install
 ````
 To run the program:
 
 ````
->irb
->require './lib/user.rb'
->user = User.new
->user.closest_events
+irb
+require './lib/user.rb'
+user = User.new
+user.closest_events
 ````
 Example:
 
 ````
 <p align="center">
-<img src="/images/screenshot.png"/>
+<img src="./images/screenshot.png"/>
 </p>
 ````
 To run tests:
 
 ````
-> rspec (23 passing)
+rspec (22 passing)
 
 ````
 
