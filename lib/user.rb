@@ -12,10 +12,8 @@ class User
 
   def closest_events
      welcome_viagogo
-     puts "Please input your x coordinate:"
-     user_w_coord = gets.chomp
-     puts "\nPlease input your y coordinate:"
-     user_z_coord = gets.chomp
+     puts "Please input your coordinates as x, y:"
+     user_w_coord, user_z_coord = gets.split.map(&:to_i)
      manhattan_distance
      five_closest_events
      puts "\nClosest events to: #{user_w_coord}, #{user_z_coord}"
@@ -41,6 +39,8 @@ class User
     @events_ordered_by_dist += @events.sort_by { |e| e[2] }
     @five_closest_events += @events_ordered_by_dist.take(5)
   end
+
+
 
   def welcome_viagogo
    puts """\n Welcome to our online event locator with
