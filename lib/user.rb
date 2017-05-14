@@ -2,7 +2,7 @@ require 'json'
 
 class User
 
-  attr_reader :user_w_coord, :user_z_coord, :events, :events_ordered_by_dist, :manhattan_distance, :five_closest_events
+  attr_reader :user_w_coord, :user_z_coord, :events, :events_ordered_by_dist, :manhattan_distance, :print_closest_events, :five_closest_events
 
   def initialize
     @events = []
@@ -17,11 +17,7 @@ class User
     manhattan_distance
     five_closest_events
     puts "\nClosest events to: #{user_w_coord}, #{user_z_coord}"
-    puts "\n Event #{@five_closest_events[0][0]} -#{@five_closest_events[0][1]}, Distance: #{@five_closest_events[0][2]}"
-    puts "\n Event #{@five_closest_events[1][0]} -#{@five_closest_events[1][1]}, Distance: #{@five_closest_events[1][2]}"
-    puts "\n Event #{@five_closest_events[2][0]} -#{@five_closest_events[2][1]}, Distance: #{@five_closest_events[2][2]}"
-    puts "\n Event #{@five_closest_events[3][0]} -#{@five_closest_events[3][1]}, Distance: #{@five_closest_events[3][2]}"
-    puts "\n Event #{@five_closest_events[4][0]} -#{@five_closest_events[4][1]}, Distance: #{@five_closest_events[4][2]}"
+    print_closest_events
     "Book now to avoid disappointment"
   end
 
@@ -38,6 +34,14 @@ class User
   def five_closest_events
     @events_ordered_by_dist += @events.sort_by { |e| e[2] }
     @five_closest_events += @events_ordered_by_dist.take(5)
+  end
+
+  def print_closest_events
+  puts "\n Event #{@five_closest_events[0][0]} - #{@five_closest_events[0][1]}, Distance: #{@five_closest_events[0][2]}"
+  puts "\n Event #{@five_closest_events[1][0]} - #{@five_closest_events[1][1]}, Distance: #{@five_closest_events[1][2]}"
+  puts "\n Event #{@five_closest_events[2][0]} - #{@five_closest_events[2][1]}, Distance: #{@five_closest_events[2][2]}"
+  puts "\n Event #{@five_closest_events[3][0]} - #{@five_closest_events[3][1]}, Distance: #{@five_closest_events[3][2]}"
+  puts "\n Event #{@five_closest_events[4][0]} - #{@five_closest_events[4][1]}, Distance: #{@five_closest_events[4][2]}"
   end
 
   def welcome_viagogo

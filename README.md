@@ -5,7 +5,7 @@
 
 You are required to write a program which accepts a user location as a pair of co-ordinates, and returns a list of the five closest events, along with the cheapest ticket price for each event.
 
-[Requirements](#requirements) | [installation instructions](#installation-instructions) | [technologies used](#technologies-used) | [Questions](#questions)
+[Requirements](#requirements) | [Installation instructions](#installation-instructions) | [Technologies used](#technologies-used) | [Questions](#questions)
 
 ## Requirements
 
@@ -61,11 +61,11 @@ Please input your coordinates in the following format: x, y
 
 Closest events to: 4, 5
 
- Event 39 -$277.00, Distance: 1
- Event 41 -$164.14, Distance: 2
- Event 50 -$169.47, Distance: 2
- Event 65 -$29.92,  Distance: 2
- Event 66 -$281.28, Distance: 3
+ Event 39 - $277.00, Distance: 1
+ Event 41 - $164.14, Distance: 2
+ Event 50 - $169.47, Distance: 2
+ Event 65 - $29.92,  Distance: 2
+ Event 66 - $281.28, Distance: 3
  => "Book now to avoid disappointment"
 
 ````
