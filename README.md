@@ -28,23 +28,49 @@ git clone https://github.com/katiekoschland/grid_ticket_tech_test.git
 cd grid_ticket_tech_test
 bundle install
 ````
-To run the program:
+
+In order to run the program, run the following commands:
+````
+Katies-MacBook:grid_ticket_tech_test katiekoschland$ irb
+2.4.0 :001 > require './lib/user.rb'
+2.4.0 :002 > user = User.new
+2.4.0 :003 > user.closest_events
+
+ Welcome to our online event locator with
+                            _________
+
+                                              `/oo:
+                                             sMMMM.
+                                             .sdho                                                     `             ``
+                              +oooo     +ooo//ysss. ./syhhhys/.    `.://///:-.`    .-:////:.`     ./syhdhhyo:`   ./shddhy+-`
+                              /NMMMo   +MMMm.sMMMM- :NNmmmmNMMN/  :+ooo+++oooo/  -+ooo+++ooo+-  `sNMMMNmNMMMMs .yNMMNmmNMMMd-
+                               oMMMN- .NMMN: +MMMM-  :///+odMMMh /ooo+-```+ooo/ -oooo:```:oooo: hMMMN/...mMMMs`dMMMm:..:dMMMN.
+                                hMMMd`hMMM+  +MMMM- +dNMMNmNMMMh`oooo-    +ooo/ +ooo+     +ooo+.MMMMo    dMMMs/MMMM/    :MMMM/
+                                `mMMMdMMMy   +MMMM-/MMMh-..sMMMh`oooo/`   +ooo/ /ooo+`   `+ooo/`NMMMh`   mMMMs-MMMMs`   oMMMM:
+                                 -NMMMMMd`   +MMMM-+MMMd//+dMMMh -oooo+///oooo/ .+ooo+:-:+ooo+` oNMMMmhhdNMMMs oMMMMdsohNMMNo
+                                  /MMMMm.    +MMMM-`omMMMMNdMMMh  .:++ooo+oooo/  `:+oooooo+/-`   -ydNMMNmNMMMs  :ymMMMMMMmy:
+                                   ....`     `....   `-::-.`...`   ` `````oooo/     `....``      `.`.....NMMMs    `.://-.`
+                                                                 `/+/::::+oooo.                 .dNdysoymMMMN:
+                                                                 ./+ooooooo+:`                  /ymMMMMMMMms.
+                                                                    ``...``                        `.----`
+
+
+
+Please input your coordinates in the following format: x, y
+4, 5
+
+Closest events to: 4, 5
+
+ Event 39 -$277.00, Distance: 1
+ Event 41 -$164.14, Distance: 2
+ Event 50 -$169.47, Distance: 2
+ Event 65 -$29.92,  Distance: 2
+ Event 66 -$281.28, Distance: 3
+ => "Book now to avoid disappointment"
 
 ````
-irb
-require './lib/user.rb'
-user = User.new
-user.closest_events
-````
-Example:
 
-````
-<p align="center">
-<img src="./images/screenshot.png"/>
-</p>
-````
 To run tests:
-
 ````
 rspec (22 passing)
 
@@ -52,10 +78,10 @@ rspec (22 passing)
 
 ## Technologies used
 
-````
+
 * Ruby
 * Tested with Rspec
-````
+
 
 
 ## Questions
